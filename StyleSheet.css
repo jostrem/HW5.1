@@ -1,0 +1,24 @@
+﻿body 
+{
+    background-color: tan;
+}
+
+#container {color:White; background-color: #F08080; border: 1px solid black;}
+#main {color: black; background-color: White; border: 1px solid black;}
+#header {color:White; background-color: #F08080; border: 1px solid black;}
+
+.cssgridview { width:100%; margin:5px 0 10px 0; border:solid 10px white; 
+              border-collapse:collapse; text-align:center; font-family: "Cambria"; 
+              color: white; background-color: #F08080}
+.cssgridview td { padding:10px; border:solid 2px white; }
+.cssgridview td a, a:visited { color: black; text-decoration:none; }
+.cssgridview th { padding:10px; background-color: #FFFF99; font-size:0.9em; }  
+.cssgridview th a { color: #696969; text-decoration:none; } 
+.cssgridview th a:hover { color: white; background-color:#7C6F57; text-decoration:underline; }
+.cssgridview .pgr a:hover { color: white; background-color:#7C6F57; text-decoration: underline; }  
+.cssdetailsview { color: #CD5C5C; font-family: "Cambria"; background-color:white; margin:5px 160px 10px 0;
+                   border:solid 1px #525252; border-collapse:collapse; text-align:center; }
+.cssdetailsview td { padding:10px; border:solid 1px black; text-align:left;}
+.cssdetailsview .header td { text-align:center; padding:4px 2px; color: white; 
+                             background-color: gray; border-left:solid 1px black; font-weight: bold}
+.cssdetailsview .fieldheader { color:black; width:150px; text-align:left;}
